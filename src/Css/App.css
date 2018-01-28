@@ -1,0 +1,76 @@
+#mainBackground {
+  background:LemonChiffon;
+}
+
+/*Body CSS */
+body {
+	background-color: #003300;
+
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.active {
+	background-color: grey;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+}
+
+h4,h3 {
+	color: brown;
+}
+
+h2{
+	color: brown;
+	font-size: 30px;
+	}
+
+	/* Caption text */
+	.text {
+		color: black;
+		font-size: 26px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: -80px;
+		width: 100%;
+		text-align: center;
+	}
+
+.personImages {
+  width: 200;
+  height: 200;
+}
+
+#login {
+  background-color:dodgerblue;
+  color:white;
+  padding:14px 40px;
+  border-radius:10px;
+}
+
+.btn {
+  background-color: brown;
+  border-radius: 50%;
+}
