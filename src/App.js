@@ -97,7 +97,7 @@ class App extends Component {
           <Route path="/terms" component = {Terms} />
 
           <Route path="/policy" component = {Policy} />
-          <Route path="/industrial" component = {Industrial} />
+          <Route path="/register" component = {Register} />
         </div>
         </BrowserRouter>
 

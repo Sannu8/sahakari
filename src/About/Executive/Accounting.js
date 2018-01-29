@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../../Css/App.css';
 
-import Ganesh from '../../Images/ganesh.png';
-import Krishna from '../../Images/krishna.png';
+import Ganesh from '../../Images/Ganesh.png';
+import Krishna from '../../Images/Krishna.png';
 import Manju from '../../Images/manju.jpg';
 
 
