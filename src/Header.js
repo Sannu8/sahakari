@@ -18,7 +18,7 @@ class Header extends Component {
           </tbody>
   			</table>
 
-  			<img src = "http://i.imgur.com/T40J2f3.png" width="100" height="100" alt = "logo" />
+  			<img src = "http://i.imgur.com/T40J2f3.png" alt = "logo" />
 
   			<span id = "caselogin"></span>
 
