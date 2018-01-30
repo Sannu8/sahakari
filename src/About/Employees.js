@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Css/App.css';
+import '../Css/Employees.css';
 
 import Ratna from '../Images/ratna.png';
 import Sajana from '../Images/Sajana.jpg';
@@ -18,27 +18,27 @@ class Employees extends Component {
 				<th>Managing Director: Mr. Ratna Bahadur Mahat<br />
 					Tel: 9846054890
 				</th>
-				<td><img src = "ratna.png" className="personImages" /></td>
+				<td><img src = {Ratna} className="personImages" /></td>
 
 			</tr>
 			<tr>
 				<th> Assistant Manager: Mrs. Sajana Karmacharya<br />
 					Tel: 9846778401</th>
-				<td><img src = "Sajana.jpg" className="personImages" /></td>
+				<td><img src = {Sajana} className="personImages" /></td>
 
 
 			</tr>
 			<tr>
 					<th>Management Assistant: Rita Thapa<br />
 						Tel: </th>
-				<td><img src = "rita.png" className="personImages" /></td>
+				<td><img src = {Rita} className="personImages" /></td>
 
 
 			</tr>
 			<tr>
 					<th>Front Desk Assistant: Binu Khatri<br />
 						Tel: </th>
-				<td><img src = "binu.png" className="personImages" /></td>
+				<td><img src = {Binu} className="personImages" /></td>
 
 
 			</tr>
