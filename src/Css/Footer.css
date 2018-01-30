@@ -1,10 +1,15 @@
 /*Footer CSS */
 footer {
 		font-size: 13px;
-		background-color: lightgrey;
+		background-color: black;
+		color: white;
 
 }
 
 footer table {
 	width: 100%;
+}
+
+a {
+	color: #86B57E;
 }

@@ -11,13 +11,13 @@ class Industrial extends Component {
 		<p>
       The Co-Operative offers Industrial Loan service to the customers who are working in the industrial field.
       This is to encourage the development of the industrial field through active participation of people in
-      the field. 
+      the field.
 
       <h4>Features:</h4>
       <ul>
         <li>Minimum Balance: Rs 100</li>
         <li>9.00% Interest Rate</li>
-        <li>The account holder must be a female citizen of Nepal of age 18 years or older.</li>
+        <li>The account holder must be a citizen of Nepal of age 18 years or older.</li>
 
       </ul>
 

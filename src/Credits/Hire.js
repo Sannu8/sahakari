@@ -9,15 +9,13 @@ class Hire extends Component {
 		<h3>Hire Purchase Loan:</h3>
 
 		<p>
-      The Co-Operative offers Women Savings service to the female customers of the society
-      in order to encourage the active participation of women in saving for their family
-      for their future prosperity.
-
+      The Co-Operative offers Hire Purchase Loan service to the customers of the society
+      in order to help its customers financially to buy the luxury purchases such as cars and houses.
       <h4>Features:</h4>
       <ul>
         <li>Minimum Balance: Rs 100</li>
         <li>9.00% Interest Rate</li>
-        <li>The account holder must be a female citizen of Nepal of age 18 years or older.</li>
+        <li>The account holder must be a citizen of Nepal of age 18 years or older.</li>
 
       </ul>
 

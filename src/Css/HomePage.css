@@ -52,5 +52,5 @@
 
 										/* On hover, add a background color  */
 										.prev:hover, .next:hover {
-											background-color: brown;
+											background-color: lightgrey;
 										}

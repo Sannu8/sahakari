@@ -1,10 +1,12 @@
 #mainBackground {
-  background:LemonChiffon;
+  background:lightgrey;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /*Body CSS */
 body {
-	background-color: #003300;
+	background-color: grey;
 
 	margin-left: 10%;
 	margin-right: 10%;
@@ -68,9 +70,4 @@ h2{
   color:white;
   padding:14px 40px;
   border-radius:10px;
-}
-
-.btn {
-  background-color: brown;
-  border-radius: 50%;
 }

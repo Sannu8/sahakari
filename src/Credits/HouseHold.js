@@ -9,15 +9,14 @@ class HouseHold extends Component {
 		<h3>HouseHold Loan:</h3>
 
 		<p>
-      The Co-Operative offers Womens Savings service to the female customers of the society
-      in order to encourage the active participation of women in saving for their family
-      for their future prosperity.
+      The Co-Operative offers HouseHold Loan service to the customers of the society
+      in order support them in thier day to day household livelihood.
 
       <h4>Features:</h4>
       <ul>
         <li>Minimum Balance: Rs 100</li>
         <li>9.00% Interest Rate</li>
-        <li>The account holder must be a female citizen of Nepal of age 18 years or older.</li>
+        <li>The account holder must be a citizen of Nepal of age 18 years or older.</li>
 
       </ul>
 

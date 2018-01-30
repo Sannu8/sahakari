@@ -1,17 +1,27 @@
 /*Header CSS */
 header {
 		text-align: center;
-		color: brown;
+		color: lightbrown;
+		background: linear-gradient(to right, #86B57E , darkgreen);
+
 
 	}
 
 	h1 {
-		color: brown;
+		color: maroon;
 		font-size: 40px;
 	}
 
 	/* For image wrapping */
 	img {
 		float: left;
-		margin: 0 0 10px 10px;
+		margin: 0 0 0px 0px;
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		}
+
+		.btn {
+		  background-color: lightgrey;
+		  border-radius: 50%;
 		}
