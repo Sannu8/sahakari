@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import '../../../Css/App.css';
 
+import Jou from '../../../Images/Jou.png';
+import Padam from '../../../Images/Padam.jpg';
+import Junga from '../../../Images/Junga.jpg';
+
 class Education extends Component {
   render() {
     return(
@@ -12,20 +16,20 @@ class Education extends Component {
 				<th>Co-Ordinator: Jau Maya Rana< br />
 					Tel: 9846062790
 				</th>
-				<td><img src = "jou.png" className="personImages" /></td>
+				<td><img src = {Jou} className="personImages" /></td>
 
 			</tr>
 			<tr>
 				<th> Member: Junga Bahadur Thapa Khatri< br />
 					Tel: 9847639389</th>
-				<td><img src = "junga.jpg" className="personImages" /></td>
+				<td><img src = {Junga} className="personImages" /></td>
 
 
 			</tr>
 			<tr>
 					<th>Member: Mr. Padam Bahadur Khadka< br />
 						Tel: 9846266088</th>
-				<td><img src = "padam.jpg" className="personImages" /></td>
+				<td><img src = {Padam} className="personImages" /></td>
 
 
 			</tr>

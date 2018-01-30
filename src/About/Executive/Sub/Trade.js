@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import '../../../Css/App.css';
 
+import Hira from '../../../Images/hira.png';
+import Govind from '../../../Images/govind.png';
+import Junga from '../../../Images/Junga.jpg';
+
 class Trade extends Component {
   render() {
     return(
@@ -13,20 +17,20 @@ class Trade extends Component {
 				<th>Co-Ordinator: Mr. Hira Bahadur Khatri< br />
 					Tel: 9847675901
 				</th>
-				<td><img src = "hira.png" className="personImages" /></td>
+				<td><img src = {Hira} className="personImages" /></td>
 
 			</tr>
 			<tr>
 				<th> Member: Mr. Govind Singh Bhandari< br />
 					Tel: 9856037677</th>
-				<td><img src = "govind.png" className="personImages" /></td>
+				<td><img src = {Govind} className="personImages" /></td>
 
 
 			</tr>
 			<tr>
 					<th>Member: Mr. Junga Bahadur Thapa Khatri< br />
 						Tel: 9847639389</th>
-				<td><img src = "junga.jpg" className="personImages" /></td>
+				<td><img src = {Junga} className="personImages" /></td>
 
 
 			</tr>
