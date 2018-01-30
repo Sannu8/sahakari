@@ -1,6 +1,26 @@
 import React, { Component } from 'react';
 import '../../Css/App.css';
 
+
+import Ganga from '../../Images/ganga.png';
+//import Bhim from '../../Images/bhim.png';
+import Ratna from '../../Images/ratna.png';
+
+//import Bhim from '../../Images/bhim.png';
+//import Bom from '../../Images/bom.png';
+//import Chun from '../../Images/chun.jpg';
+
+import Ghan from '../../Images/Ghan.png';
+import Govind from '../../Images/govind.png';
+//import Hira from '../../Images/hira.jpg';
+
+//import Jou from '../../Images/jou.png';
+import Kamal from '../../Images/Kamal.png';
+//import Kamala from '../../Images/kamala.jpg';
+//import Ran from '../../Images/ran.jpg';
+
+
+
 class Board extends Component {
   render() {
     return(
@@ -13,7 +33,7 @@ class Board extends Component {
 				<th>Chairman: Mr. Ganga Bahadur Khadka< br />
 					Tel: 9846049916
 				</th>
-				<td><img src = "chairman.png"  className="personImages"  /></td>
+				<td><img src = {Ganga}  className="personImages"  /></td>
 
 			</tr>
 			<tr>
@@ -26,7 +46,7 @@ class Board extends Component {
 			<tr>
 					<th>Secretary: Mr. Ratna Bahadur Mahat< br />
 						Tel: 9846054890</th>
-				<td><img src = "secretary.png"  className="personImages"  /></td>
+				<td><img src = {Ratna}  className="personImages"  /></td>
 
 
 			</tr>
@@ -58,7 +78,7 @@ class Board extends Component {
 			<tr>
 				<th>Member: Mr. Govinda Singh Bhandari< br />
 					Tel: 9856037677</th>
-				<td><img src = "govind.png"  className="personImages"  /></td>
+				<td><img src = {Govind}  className="personImages"  /></td>
 
 			</tr>
 			<tr>
@@ -76,7 +96,7 @@ class Board extends Component {
 			<tr>
 				<th>Member: Mr. Kamal Poudel< br />
 					Tel: 9846059736</th>
-				<td><img src = "kamal.png"   className="personImages" /></td>
+				<td><img src = {Kamal}   className="personImages" /></td>
 
 			</tr>
 			<tr>

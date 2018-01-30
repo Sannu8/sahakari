@@ -17,20 +17,20 @@ class Accounting extends Component {
       <th>Co-Ordinator: Mr. Ganesh Khadka<  br />
         Tel: 9846206714
       </th>
-      <td><img src = "ganesh.png" className="personImages" /></td>
+      <td><img src = {Ganesh} className="personImages" /></td>
 
     </tr>
     <tr>
       <th> Member: Mr. Krishna Bahadur Karki<  br />
         Tel: 9846392139</th>
-      <td><img src = "krishna.png" className="personImages" /></td>
+      <td><img src = {Krishna} className="personImages" /></td>
 
 
     </tr>
     <tr>
         <th>Member: Mrs. Manju B.K. <  br />
           Tel: 9806515397</th>
-      <td><img src = "manju.jpg" className="personImages"/></td>
+      <td><img src = {Manju} className="personImages"/></td>
 
 
     </tr>
